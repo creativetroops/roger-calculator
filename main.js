@@ -34,4 +34,3 @@ function bindCalculate(){
 }
 
 bindCalculate();
-printResult("Teste")
