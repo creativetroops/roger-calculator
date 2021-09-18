@@ -1,0 +1,63 @@
+body {
+  background-color: blueviolet;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding: 10%;
+}
+
+h1 {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+label {
+  color: #f2f2f2;
+  display: block;
+}
+
+input,
+select {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  text-align: center;
+  border: none;
+  font-size: 2rem;
+}
+
+#blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3333%;
+}
+
+#result {
+  font-size: 2rem;
+  color: #f1f1f1;
+}
+
+#result,
+#container-calculate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculate {
+  color: #f2f2f2;
+  background-color: darkviolet;
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+  font-size: 2rem;
+  display: block;
+}
